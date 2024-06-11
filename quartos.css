@@ -1,10 +1,11 @@
-.banner-quartos {
-  height: 40vh;
+.container-quartos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .container-quartos img {
   width: 350px;
-  flex-grow: 1;
 }
 
 .container-informacoes {
@@ -27,4 +28,7 @@
 .lista-informacoes li {
   width: 230px;
   text-align: left;
+  margin: auto;
 }
+
+
